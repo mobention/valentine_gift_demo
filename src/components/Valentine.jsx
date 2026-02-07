@@ -3,13 +3,13 @@ import confetti from "canvas-confetti";
 
 // 1. IMAGE & MUSIC CONFIGURATION
 const images = {
-    memory1: "/valentine_Gift/images/memory1.jpg", 
-    memory2: "/valentine_Gift/images/memory2.jpg",
-    final: "/valentine_Gift/images/final.jpg" 
+    memory1: "/valentine_gift_demo/images/memory1.jpg", 
+    memory2: "/valentine_gift_demo/images/memory2.jpg",
+    final: "/valentine_gift_demo/images/final.jpg" 
 };
 
 // Add your song file to public/music/romantic.mp3
-const musicPath = "/valentine_Gift/music/romantic.mp3";
+const musicPath = "/valentine_gift_demo/music/romantic.mp3";
 
 const noMessages = [
     "Oh? 👀 You clicked No already?",
