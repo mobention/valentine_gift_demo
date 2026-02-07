@@ -14,7 +14,7 @@ const musicPath = "/valentine_Gift/music/romantic.mp3";
 const noMessages = [
     "Oh? 👀 You clicked No already?",
     "Are you sure? My heart disagrees. 🥺",
-    "Shivani... that button is suspicious 😏",
+    "Pooja... that button is suspicious 😏",
     "Imagine saying No to this face 🥺",
     "Just say Yes already! 💖",
     "Alright, enough drama. Say Yes! ✨",
@@ -24,7 +24,7 @@ const noMessages = [
 // Quiz Questions
 const questions = [
     { q: "Where was our very first date?", a: "The Mall", options: ["Domino’s", "McDonald's", "The Park", "The Mall"] },
-    { q: "Who said 'I love you' & 'Kissed' first?", a: "Shivani", options: ["Pramod", "Shivani", "Both at once", "Nobody yet!"] },
+    { q: "Who said 'I love you' & 'Kissed' first?", a: "Pooja", options: ["Raj", "Pooja", "Both at once", "Nobody yet!"] },
     { q: "What is my favorite thing about you?", a: "Everything", options: ["Your Eyes", "Your Kindness", "Your Smile", "Everything"] },
     { q: "What was I wearing when we first met?", a: "Pink T-Shirt", options: ["Pink T-Shirt", "Formals", "Blue shirt", "I can't remember!"] },
     { q: "What is the one promise I intend to keep forever?", a: "All of the above", options: ["To always protect you", "To never let you go", "To love you daily", "All of the above"] },
@@ -68,7 +68,8 @@ export default function Valentine() {
     const [theme, setTheme] = useState("pink");
     const [yesScale, setYesScale] = useState(1);
     const [noStage, setNoStage] = useState(0);
-    const name = "Shivani";
+    const name = "Pooja";
+    const devName = "Raj";
 
     const themes = {
         pink: "from-pink-100 via-rose-100 to-pink-200",
@@ -149,7 +150,7 @@ export default function Valentine() {
                             </button>
                             
                             <p className="mt-6 text-xs text-pink-400 font-semibold tracking-widest uppercase opacity-60">
-                                Handcrafted with ❤️ by Pramod
+                                Handcrafted with ❤️ by {devName}
                             </p>
                         </div>
                     )}
